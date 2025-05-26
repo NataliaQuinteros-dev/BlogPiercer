@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+nav{
+    background-color: #6B4780;
+    display: flex;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    display: inline;
+    
+}
+
+nav a{
+    color: #0FFF7E;
+    text-decoration: none;
+    font-family: "Merienda";
+}
+
+main{
+    display: flex;
+    background-color: #ed6cc4;
+}
+
+section{
+    
+    width: 70vw;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1.5em;
+    margin-left: 1vw;
+
+}
+section a{
+    color: antiquewhite;
+}
+aside{
+    background-color: #AA4389;
+    width: 30vw;
+}
+
+.perfil{
+    color: #2EFF0F;
+    text-align: center;
+}
+.perfil h2{
+    font-family: "Satisfy", cursive;
+    font-size: 2em;
+}
+.perfil img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.redes{
+    color: rgb(255, 210, 251);
+    text-align: center;
+    
+}
+.redes li{
+    list-style-type: none;
+    display: inline;
+
+}
+.redes a{
+    text-decoration: none;
+}
+.suscripcion{
+    color: rgb(255, 210, 251);
+}
+.suscripcion h2{
+    text-align: center;
+}
+
+.posteos li a{
+    color: rgb(255, 210, 251);
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1.5em;
+    
+}
+.posteos li{
+    list-style-type: none;
+}
+.posteos a{
+    text-decoration: none;
+}
+footer{
+    background-color: #41553E;
+    display: flex;
+    height: 5vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin-top: 5px;
+    font-family: "Merienda";
+}
+
+body{
+    font-family: "Montserrat",sans-serif;
+}
+/* ¿Qué son los piercings? */
+.imagenJoyeria{
+    width: 400px;
+}
+.historiaPerforaciones h1{
+    font-size: 2em;
+    text-align: center
+}
+.historiaPerforaciones li{
+    list-style-type: square;
+    margin-left: 5%;
+}
+.piercingsEnLaNariz h1{
+    font-size: 2em;
+    text-align: center
+}
+.piercingsEnLaNariz li{
+    list-style-type: square;
+    margin-left: 5%;
+}
+.piercingsEnElRostro h1{
+    font-size: 2em;
+    text-align: center
+}
+.piercingsEnElRostro li{
+    list-style-type: square;
+    margin-left: 5%;
+}
+.piercingsEnLasOrejas h1{
+    font-size: 2em;
+    text-align: center
+}
+.piercingsEnLasOrejas li{
+    list-style-type: square;
+    margin-left: 5%;
+}
+.piercingsEnLasOrejas img{
+    width: 40vw;
+}
+.queSonLosPiercings h1{
+    font-size: 2em;
+    text-align: center
+}
+.queSonLosPiercings li{
+    list-style-type: square;
+    margin-left: 5%;
+}
+.sobreMi h1{
+    text-align: center;
+}
+.contacto h1{
+    text-align: center;
+}
+.contacto img{
+    width: 200px;
+}
